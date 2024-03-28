@@ -85,6 +85,12 @@ ol, ul {
     line-height: 100%;
     margin-bottom: 24px;
 }
+h2 {
+font-size: 28px;
+color: #854632;
+line-height: 100%;
+margin-bottom: 24px;
+}
 
 .ingredientes li::marker {
     font-size: 12px;
@@ -94,4 +100,8 @@ ol, ul {
 hr {
     border: 1px solid #e3ddd7;
     margin-block: 32px;
+}
+.Modo li::marker {
+    color: #854632;
+    font-weight: 700;
 }
