@@ -62,17 +62,16 @@ p {
     font-family: "Outfit", sans-serif;
     color: #7a284e;
     margin-bottom: 16px;
-
 }
 
 li {
     padding-left: 10px;
     color: #5f564d;
-    margin-bottom: 150%;
+    line-height: 16px;
 }
 
 li + li {
-    margin-top: ;
+    margin-top: 8px;
 }
 
 ol, ul {
@@ -83,4 +82,16 @@ ol, ul {
 .Tempo li::marker {
     color: #7a284e;
     font-size: 12px;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+
+.ingredientes li::marker {
+    font-size: 12px;
+    color: #854632;
+}
+
+hr {
+    border: 1px solid #e3ddd7;
+    margin-block: 32px;
 }
